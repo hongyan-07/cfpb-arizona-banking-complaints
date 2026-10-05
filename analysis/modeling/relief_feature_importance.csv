@@ -1,0 +1,21 @@
+feature,gain,gain_share
+sub_issue_missing,103.8018798828125,0.079
+product_group_Credit card,99.4640884399414,0.076
+product_group_Money transfer / digital wallet,98.34141540527344,0.075
+sub_product_Domestic (US) money transfer,74.02823638916016,0.057
+"company_top_TRANSUNION INTERMEDIATE HOLDINGS, INC.",58.38325119018555,0.045
+company_top_Experian Information Solutions Inc.,36.02350616455078,0.028
+"company_top_BANK OF AMERICA, NATIONAL ASSOCIATION",26.878231048583984,0.021
+"company_top_CITIBANK, N.A.",26.586833953857422,0.02
+"company_top_EQUIFAX, INC.",24.250539779663086,0.019
+issue_Other transaction problem,20.917125701904297,0.016
+"company_top_Block, Inc.",20.36951446533203,0.016
+product_group_Checking / savings,17.202608108520508,0.013
+"company_top_Early Warning Services, LLC",16.468372344970703,0.013
+sub_issue_Company closed your account,13.567961692810059,0.01
+company_top_U.S. BANCORP,12.632869720458984,0.01
+product_group_Prepaid card,12.618911743164062,0.01
+issue_Trouble using your card,12.468279838562012,0.01
+sub_issue_Deposits and withdrawals,12.147148132324219,0.009
+company_top_JPMORGAN CHASE & CO.,11.596089363098145,0.009
+company_top_AMERICAN EXPRESS COMPANY,11.393133163452148,0.009

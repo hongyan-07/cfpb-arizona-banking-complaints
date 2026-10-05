@@ -1,0 +1,39 @@
+{
+  "unit": "complaints per week",
+  "weeks_available": 104,
+  "backtest_window": "2025-06-30 to 2025-12-22",
+  "backtest_weeks": 26,
+  "total_series_metrics": [
+    {
+      "method": "naive_last_week",
+      "series": "Total",
+      "mae": 13.19,
+      "mape_pct": 17.5,
+      "wape_pct": 16.4
+    },
+    {
+      "method": "moving_average_4w",
+      "series": "Total",
+      "mae": 10.64,
+      "mape_pct": 14.8,
+      "wape_pct": 13.3
+    },
+    {
+      "method": "median_8w",
+      "series": "Total",
+      "mae": 10.17,
+      "mape_pct": 14.2,
+      "wape_pct": 12.7
+    },
+    {
+      "method": "ridge_lags_spike_capped",
+      "series": "Total",
+      "mae": 10.98,
+      "mape_pct": 14.4,
+      "wape_pct": 13.7
+    }
+  ],
+  "best_method_total": "median_8w",
+  "best_mae_reduction_vs_naive_pct": 22.9,
+  "mean_weekly_total_in_backtest": 80.3
+}

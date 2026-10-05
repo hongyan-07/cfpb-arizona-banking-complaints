@@ -1,0 +1,21 @@
+series,method,mae,mape_pct,wape_pct
+Total,naive_last_week,13.19,17.5,16.4
+Total,moving_average_4w,10.64,14.8,13.3
+Total,median_8w,10.17,14.2,12.7
+Total,ridge_lags_spike_capped,10.98,14.4,13.7
+Credit card,naive_last_week,6.73,21.9,20.5
+Credit card,moving_average_4w,5.87,21.1,17.8
+Credit card,median_8w,5.33,20.0,16.2
+Credit card,ridge_lags_spike_capped,5.33,19.6,16.2
+Checking / savings,naive_last_week,6.81,23.6,22.2
+Checking / savings,moving_average_4w,6.45,22.3,21.0
+Checking / savings,median_8w,6.54,22.5,21.3
+Checking / savings,ridge_lags_spike_capped,6.96,22.5,22.7
+Money transfer / digital wallet,naive_last_week,4.62,41.1,34.1
+Money transfer / digital wallet,moving_average_4w,3.7,31.8,27.3
+Money transfer / digital wallet,median_8w,3.46,27.5,25.6
+Money transfer / digital wallet,ridge_lags_spike_capped,3.75,31.3,27.7
+Prepaid card,naive_last_week,1.58,55.8,49.4
+Prepaid card,moving_average_4w,1.36,54.1,42.5
+Prepaid card,median_8w,1.4,61.0,44.0
+Prepaid card,ridge_lags_spike_capped,1.49,53.9,46.7

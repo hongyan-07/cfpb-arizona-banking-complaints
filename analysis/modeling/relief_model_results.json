@@ -1,0 +1,100 @@
+{
+  "target": "relief_response (closed with monetary or non-monetary relief)",
+  "split": {
+    "train": {
+      "months": "2024-01 to 2025-03",
+      "rows": 5182,
+      "positive_rate": 0.246
+    },
+    "valid": {
+      "months": "2025-04 to 2025-06",
+      "rows": 974,
+      "positive_rate": 0.248
+    },
+    "test": {
+      "months": "2025-07 to 2025-12",
+      "rows": 2123,
+      "positive_rate": 0.221
+    }
+  },
+  "excluded_as_leakage": [
+    "company_response_to_consumer",
+    "company_public_response",
+    "timely_response",
+    "response_group",
+    "date_sent_to_company"
+  ],
+  "models": {
+    "logistic_regression_baseline": {
+      "features": "structured intake fields",
+      "valid": {
+        "threshold": 0.6301271964784427,
+        "f1": 0.57,
+        "precision": 0.57,
+        "recall": 0.57,
+        "pr_auc": 0.564,
+        "roc_auc": 0.792,
+        "flagged_share": 0.248,
+        "relief_captured_in_top_20pct": 0.488
+      },
+      "test": {
+        "threshold": 0.6301271964784427,
+        "f1": 0.442,
+        "precision": 0.444,
+        "recall": 0.439,
+        "pr_auc": 0.448,
+        "roc_auc": 0.74,
+        "flagged_share": 0.219,
+        "relief_captured_in_top_20pct": 0.414
+      }
+    },
+    "xgboost_structured": {
+      "features": "structured intake fields",
+      "valid": {
+        "threshold": 0.5997841954231262,
+        "f1": 0.593,
+        "precision": 0.576,
+        "recall": 0.612,
+        "pr_auc": 0.604,
+        "roc_auc": 0.808,
+        "flagged_share": 0.264,
+        "relief_captured_in_top_20pct": 0.488
+      },
+      "test": {
+        "threshold": 0.5997841954231262,
+        "f1": 0.463,
+        "precision": 0.454,
+        "recall": 0.473,
+        "pr_auc": 0.457,
+        "roc_auc": 0.739,
+        "flagged_share": 0.23,
+        "relief_captured_in_top_20pct": 0.42
+      }
+    },
+    "xgboost_structured_plus_text": {
+      "features": "structured intake fields + narrative TF-IDF (1-2 grams)",
+      "valid": {
+        "threshold": 0.47198089957237244,
+        "f1": 0.562,
+        "precision": 0.498,
+        "recall": 0.645,
+        "pr_auc": 0.585,
+        "roc_auc": 0.771,
+        "flagged_share": 0.321,
+        "relief_captured_in_top_20pct": 0.504
+      },
+      "test": {
+        "threshold": 0.47198089957237244,
+        "f1": 0.458,
+        "precision": 0.392,
+        "recall": 0.55,
+        "pr_auc": 0.442,
+        "roc_auc": 0.722,
+        "flagged_share": 0.31,
+        "relief_captured_in_top_20pct": 0.416
+      }
+    }
+  },
+  "selected_model": "xgboost_structured",
+  "selection_rule": "highest validation PR-AUC; threshold = best validation F1"
+}
