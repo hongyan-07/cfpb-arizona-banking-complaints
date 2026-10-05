@@ -1,0 +1,21 @@
+{
+  "records_analyzed": 8279,
+  "fields_in_source": 16,
+  "complaints_2024": 3356,
+  "complaints_2025": 4923,
+  "year_over_year_change_pct": 46.7,
+  "largest_product_group": "Credit card",
+  "largest_product_group_records": 3458,
+  "top_issue": "Managing an account",
+  "top_issue_records": 1655,
+  "top_issue_share_pct": 19.99,
+  "timely_response_pct": 99.34,
+  "relief_response_pct": 24.01,
+  "narrative_available_pct": 59.29,
+  "jan_2025_money_transfer_records": 753,
+  "jan_2024_money_transfer_records": 27,
+  "jan_money_transfer_yoy_delta": 726,
+  "spike_share_of_total_yoy_increase_pct": 46.3,
+  "top_two_company_share_of_spike_pct": 92.0,
+  "repeated_narratives_in_spike_with_unique_complaint_ids": 257
+}

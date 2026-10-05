@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "raw_sha256": "9525db0ace5e65557f8c4a3ddb237383c555fb8db87e62f5a45f85e6224045b1",
+  "analyzed_complaints": 8279,
+  "selected_model": "xgboost_structured",
+  "platform": "macOS-26.5.1-arm64-arm-64bit-Mach-O",
+  "architecture": "arm64",
+  "python_version": "3.14.6",
+  "xgboost_version": "3.4.1",
+  "scikit_learn_version": "1.9.0",
+  "test_f1_from_exported_flags": 0.4635,
+  "test_recall_from_exported_flags": 0.4733,
+  "top_20pct_capture_from_exported_scores": 0.42,
+  "forecast_mae_complaints_per_week": 10.17,
+  "forecast_mape_pct": 14.2
+}

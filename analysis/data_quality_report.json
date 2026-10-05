@@ -1,0 +1,18 @@
+{
+  "rows_downloaded": 8290,
+  "rows_in_2024_2025_analysis_window": 8279,
+  "rows_removed_outside_window": 11,
+  "duplicate_complaint_ids_before_deduplication": 0,
+  "duplicate_complaint_ids_after_deduplication": 0,
+  "missing_date_received": 0,
+  "missing_issue": 0,
+  "missing_company_response": 0,
+  "products_in_scope": [
+    "Checking / savings",
+    "Credit card",
+    "Money transfer / digital wallet",
+    "Prepaid card"
+  ],
+  "analysis_start": "2024-01-01T22:56:31+00:00",
+  "analysis_end": "2025-12-31T23:54:27+00:00"
+}

@@ -1,0 +1,16 @@
+product_group,response_group,complaints
+Checking / savings,Explanation,2282
+Checking / savings,Monetary relief,339
+Checking / savings,Non-monetary relief,185
+Checking / savings,Other / missing,1
+Credit card,Explanation,2177
+Credit card,Non-monetary relief,805
+Credit card,Monetary relief,475
+Credit card,Other / missing,1
+Money transfer / digital wallet,Explanation,1650
+Money transfer / digital wallet,Monetary relief,71
+Money transfer / digital wallet,Non-monetary relief,35
+Money transfer / digital wallet,Other / missing,2
+Prepaid card,Explanation,178
+Prepaid card,Monetary relief,55
+Prepaid card,Non-monetary relief,23
